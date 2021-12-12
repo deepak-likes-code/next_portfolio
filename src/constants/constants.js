@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: 'MERN Memories',
+    title: 'Zeonergy Decentralised Energy Exchange',
     description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
     image: '/images/1.png',
     tags: ['Mongo', 'Express', 'React', 'Node'],
@@ -10,11 +10,11 @@ export const projects = [
   },
   {
     title: 'E-Commerce',
-    description: "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    description: "A React.js E-commerce application. QKart is an E-commerce application offering a variety of products for customers to choose from. Implemented the core logic for authentication, shopping cart and checkout. Improved UI by adding responsive design elements for uniform experience across different devices. Utilized REST APIs to dynamically load and render data served by the backend server. Deployed website to Netlify and backend on Heroku",
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    tags: ['React', 'JavaScript', 'MongoDB', 'Express', 'Node'],
+    source: 'https://deepak-qkart-frontend.netlify.app/',
+    visit: 'https://deepak-qkart-frontend.netlify.app/',
     id: 1,
   },
   {
@@ -38,11 +38,11 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2018, text: 'Started my developer journey', },
+  { year: 2019, text: 'Cofounded a tech based fashion recommendation platform Styloria LLP', },
+  { year: 2020, text: 'Started an E-commerce platform Voidstore.in as a side hsutle', },
+  { year: 2021, text: 'Started building Web 3 projects on Ethereum and Solana', },
+  // { year: 2021, text: 'Started my own platform', },
 ];
 
 export const AcomplishmentsData = [
@@ -51,3 +51,4 @@ export const AcomplishmentsData = [
   { number: 1900, text: 'Github Followers', },
   { number: 5000, text: 'Github Stars', }
 ];
+

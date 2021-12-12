@@ -19,7 +19,8 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            React.js, Next and <br />
+            TailwindCSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -39,7 +40,7 @@ const Technologies = () => (
           <ListTitle>Web3</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Solidity, Web3js and EtherJS
+            Solidity, Web3js <br />and EtherJS
           </ListParagraph>
         </ListContainer>
       </ListItem>

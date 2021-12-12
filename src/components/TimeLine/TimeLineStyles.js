@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
-  background: #0F1624;
+  background: "#0F1600";
   padding: 0rem;
   list-style:none;
   display: flex;
@@ -42,6 +42,7 @@ export const CarouselMobileScrollNode = styled.div`
 export const CarouselItem = styled.div`
   background: #0F1624;
   border-radius: 3px;
+  padding:2rem;
   max-width: 196px;
 
   @media ${props => props.theme.breakpoints.md} {
